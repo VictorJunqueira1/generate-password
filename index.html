@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generate Password | Victor Junqueira</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <input type="text" id="inputPassword">
+        <div>
+            <input type="range" id="inputRange" min="6" max="24">
+            <label for="labelRange"></label>
+        </div>
+        <div>
+            <input type="checkbox" id="upperCase">
+            <label for="upperCase">Letras maiúsculas</label>
+        </div>
+        <div>
+            <input type="checkbox" id="lowerCase">
+            <label for="lowerCase">Letras minúsculas</label>
+        </div>
+        <div>
+            <input type="checkbox" id="numbers">
+            <label for="upperCase">Números</label>
+        </div>
+        <div>
+            <input type="checkbox" id="symbols">
+            <label for="upperCase">Símbolos</label>
+        </div>
+        
+        <button id="generateBtn">Gerar</button>
+
+    </main>
+    
+    <script src="script.js"></script>
+</body>
+</html>
